@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Krishna Kumar</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Krishna Kumar</h1>
+                <h4 class="sub-heading">
+                    A Frontend Developer.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <a href="Final Resume Krishna.pdf"><button class="btn ghost-btn">Get Resume</button></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <hr>
+            <p class="lead-para">
+                I am a passionate Frontend Developer, currently learning and improving my skills. I have completed <b>Data Structures and Algorithms(DSA) in C++</b>
+                and am excited to continue growing in the field of web development. I enjoy solving problems and building applications that make a difference. 
+            </p>
+            <p>
+                <b>Education:</b> B.Tech CSE Student at Maharaja Agrasen Institute of Technology.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="images/about.jpeg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center"><marquee behavior="" direction="">Contact Me</marquee></h1>
+            <hr>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading"></h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">krishnakumar270805@gmail.com</p><a href="mailto:krishnakumar270805@gmail.com"><button>Send Email</button></a>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9319922845</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">845 Sector-2, Type-2, Sadiq Nagar, New Delhi-110049</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2025 All rights reserved.
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/k.kumar_05?igsh=MTh6dnZodnU3OWkxOQ==">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/krishna-kumar-b69975322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
